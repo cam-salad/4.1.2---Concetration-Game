@@ -12,7 +12,7 @@ public class ConcentrationRunner
     private static Concentration game = new Concentration();
 
     public static void main(String[] args)
-    {
+    {  
         // input object for the BlueJ console
         Scanner in = new Scanner(System.in);
 
@@ -24,6 +24,7 @@ public class ConcentrationRunner
         System.out.println("(You will need to know 2-dim arrays to play!)");
         System.out.println("\nPress Enter to continue...");
         in.nextLine();
+        
 
         // play until all tiles are matched
         while(!game.allTilesMatch()) {

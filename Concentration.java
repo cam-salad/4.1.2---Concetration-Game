@@ -19,8 +19,14 @@ public class Concentration extends Board
      * by populating it with tiles.
      */
     public Concentration() { 
-
-       // to do
+        for(int i = 0; i < gameboard.length; i++)
+        {
+            for(int j = 0; j < gameboard[0].length; j++)
+            {
+                gameboard[i][j] = new Tile("test");
+                System.out.println(gameboard[i][j].getFace() + "\t");
+            }
+        }
 
     }
     /**
